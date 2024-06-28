@@ -47,7 +47,7 @@ a {
 }
 
 a:hover {
-  color: #00548f; /* Same color for hyperlinks */
+  color: #8c1515; /* Same color for hyperlinks */
   text-decoration: underline; /* Optional: adds underline on hover */
 }
 
@@ -105,7 +105,7 @@ table {
 }
 
 .button:hover {
-  background-color: #b83a4b; /* Slightly darker shade when hovering */
+  background-color: #8c1515; /* Slightly darker shade when hovering */
 }
 
 /* Make the anchor tag look like a button */
