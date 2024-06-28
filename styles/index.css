@@ -1,5 +1,115 @@
+html {
+  background-color: #ababa9;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  width: 80%;
+  max-width: 1200px;
+  margin: auto;
+  background-color: white; /* Sets the background color for the body/content area */
+  padding: 30px; /* Adds padding inside the body to separate content from edges */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow around the body for depth */
+}
+
 h1 {
-  text-align: center;
-  font-size: 2.5rem;
-  color: blueviolet;
+  font-family: "Bitter", serif;
+  font-size: 30px;
+  font-weight: 500;
+  color: #b83a4b;
+  line-height: 1.2;
+  margin: 0px 0px 20px 0px;
+}
+
+h2 {
+  font-family: "Bitter", serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #b83a4b;
+  line-height: 1.4;
+  margin: 20px 0px 20px 0px;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Bitter", serif;
+  line-height: 1.4;
+  margin: 10px 0;
+}
+
+a {
+  color: #b83a4b; /* Same color for hyperlinks */
+  text-decoration: underline; /* Optional: removes underline from links */
+}
+
+a:hover {
+  color: #00548f; /* Same color for hyperlinks */
+  text-decoration: underline; /* Optional: adds underline on hover */
+}
+
+p {
+  margin: 10px 0;
+}
+
+header,
+section,
+footer {
+  margin-bottom: 30px;
+}
+
+table {
+  width: 100%;
+  vertical-align: top;
+}
+
+.signup-img {
+  border-radius: 5px;
+  width: 100%;
+}
+
+.signup-section {
+  background-color: #f1eae5; /* Replace with your desired color */
+  border-radius: 5px;
+  padding: 20px; /* Optional: for spacing inside the section */
+  margin: 30px 0 30px 0; /* Consistent with other sections */
+  font-size: 16px;
+}
+
+.signup-headline {
+  font-family: "Bitter", serif;
+  font-weight: 500;
+  font-size: 32px;
+  color: #b83a4b;
+  line-height: 1.2;
+  margin: 0px 0px 20px 0px;
+}
+
+.button {
+  font-family: "Open Sans", sans-serif;
+  background-color: #b83a4b; /* Button background color */
+  color: white; /* Text color */
+  border: none; /* No border for a flat look */
+  padding: 10px 20px; /* Padding inside the button */
+  text-align: center; /* Center the text */
+  text-decoration: none; /* No underline */
+  display: inline-block; /* Aligns with inline elements */
+  font-size: 18px; /* Font size */
+  margin: 12px 2px; /* Margin around the button */
+  cursor: pointer; /* Cursor changes to a hand icon */
+  border-radius: 5px; /* Rounded corners (increase radius for more roundness) */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.button:hover {
+  background-color: #b83a4b; /* Slightly darker shade when hovering */
+}
+
+/* Make the anchor tag look like a button */
+.button-link {
+  text-decoration: none; /* Removes underline from links */
+  display: inline-block; /* Needed to apply padding and margins */
 }
